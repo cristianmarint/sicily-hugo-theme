@@ -1,4 +1,4 @@
-baseURL = "https://sicily-hugo-theme.netlify.app/"
+baseURL = "https://example.com/"
 disqusShortname = "sicily-hugo-theme"
 googleAnalytics = ""
 languageCode = "en-us"
