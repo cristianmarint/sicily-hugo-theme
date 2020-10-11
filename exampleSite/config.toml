@@ -56,7 +56,7 @@ logo_width = "200px"
 address = "7657 Cl. 6, Centro"
 city = "Cartago, Valle Del Cauca"
 country = "Colombia"
-email = "contact@silicy.com"
+email = "contact@sicily.com"
 phone = "+57 315 270 2727"
 [params.navigation_button]
 enable = true
@@ -80,11 +80,11 @@ link = "plugins/slick/slick.min.js"
 enable = false
 preloader = ""
 [[params.footer]]
-rol_email = "pedropiedras@silicy.com"
+rol_email = "pedropiedras@sicily.com"
 rol_name = "Creative Director"
 rol_representative = "Pedro Pidras"
 [[params.footer]]
-rol_email = "juanrisas@silicy.com"
+rol_email = "juanrisas@sicily.com"
 rol_name = "Chief executive officer"
 rol_representative = "Juan Risas"
 [[params.footer]]
