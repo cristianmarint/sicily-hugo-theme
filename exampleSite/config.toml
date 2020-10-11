@@ -97,7 +97,7 @@ link = "#"
 title = "facebook"
 [[params.social]]
 icon = "ti-twitter-alt"
-link = "https://twitter.com/cristianmarint  "
+link = "https://twitter.com/cristianmarint"
 title = "twitter"
 [[params.social]]
 icon = "ti-skype"
