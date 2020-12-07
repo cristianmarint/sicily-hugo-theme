@@ -85,10 +85,6 @@ icon = "ti-twitter-alt"
 link = "https://twitter.com/cristianmarint"
 title = "twitter"
 [[params.social]]
-icon = "ti-skype"
-link = "#"
-title = "skype"
-[[params.social]]
-icon = "ti-linkedin"
+icon = "instagram"
 link = "#"
 title = "linkedin"
