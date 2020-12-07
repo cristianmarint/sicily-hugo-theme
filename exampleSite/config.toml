@@ -1,12 +1,12 @@
-baseURL = "https://example.com/"
+baseURL = "https://www.mossocafe.mx/"
 disqusShortname = "sicily-hugo-theme"
 googleAnalytics = ""
 languageCode = "en-us"
-languageName = "En"
+languageName = "Es"
 paginate = "10"
 summaryLength = "15"
 theme = "Sicily-hugo-theme"
-title = "Sicily"
+title = "Mosso Café"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.company]]
