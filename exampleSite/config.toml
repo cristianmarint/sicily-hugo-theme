@@ -24,7 +24,7 @@ name = "Nuestro Menú"
 weight = 2
 [[menu.main]]
 URL = "contact"
-name = "Contact"
+name = "Contacto"
 weight = 3
 [[menu.main]]
 URL = "faq"
