@@ -56,7 +56,7 @@ email = "hola@mossocafe.mx"
 phone = ""
 [params.navigation_button]
 enable = true
-label = "Get it touch"
+label = "Reservar"
 link = "contact"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
