@@ -19,12 +19,8 @@ name = "Quick Start"
 URL = "terms-conditions"
 name = "Terms & Conditions"
 [[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 1
-[[menu.main]]
-URL = "pricing"
-name = "Pricing"
+URL = "menu"
+name = "Nuestro Menú"
 weight = 2
 [[menu.main]]
 URL = "contact"
