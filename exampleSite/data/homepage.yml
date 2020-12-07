@@ -5,7 +5,7 @@ banner:
   copyright: Copyright @ Landing Page - Sollar
   button:
     enable: true
-    label: Ver Menú
+    label: Nuestra carta
     link: "/pricing/"
 description:
   content: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
