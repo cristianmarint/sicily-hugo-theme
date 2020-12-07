@@ -27,7 +27,7 @@ URL = "contact"
 name = "Contacto"
 weight = 3
 [[menu.main]]
-URL = "faq"
+URL = "Galeria"
 name = "FAQ"
 weight = 4
 [[menu.product]]
