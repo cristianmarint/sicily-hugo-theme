@@ -77,14 +77,10 @@ link = "plugins/slick/slick.min.js"
 enable = false
 preloader = ""
 [[params.social]]
-icon = "ti-facebook"
-link = "#"
-title = "facebook"
-[[params.social]]
 icon = "ti-twitter-alt"
 link = "https://twitter.com/cristianmarint"
 title = "twitter"
 [[params.social]]
 icon = "instagram"
-link = "#"
-title = "linkedin"
+link = "instagram.com/mossocafe/"
+title = "Instagram"
