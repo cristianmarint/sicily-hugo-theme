@@ -1,7 +1,7 @@
 baseURL = "https://www.mossocafe.mx/"
 disqusShortname = "sicily-hugo-theme"
 googleAnalytics = ""
-languageCode = "en-us"
+languageCode = "es-mx"
 languageName = "Es"
 paginate = "10"
 summaryLength = "15"
@@ -10,49 +10,42 @@ title = "Mosso Café"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.company]]
-URL = "terms-conditions"
-name = " Términos y Condiciones"
-weight = 1
-[[menu.company]]
 URL = "about-us"
-name = "Nosotros"
-weight = 2
+name = "About Us"
+[[menu.company]]
+URL = "quick-start"
+name = "Quick Start"
+[[menu.company]]
+URL = "terms-conditions"
+name = "Terms & Conditions"
 [[menu.main]]
-URL = "faq"
-name = "Galeria"
-weight = 4
+URL = "menu"
+name = "Nuestro Menú"
+weight = 2
 [[menu.main]]
 URL = "contact"
 name = "Contacto"
 weight = 3
 [[menu.main]]
-URL = "pricing"
-name = "Menú"
-weight = 2
-[[menu.main]]
-URL = "blog"
-name = "Blog"
-weight = 1
-[[menu.product]]
-URL = "privacy-policy"
-name = "Aviso de Privacidad"
-weight = 1
-[[menu.product]]
-URL = "faq"
+URL = "Galeria"
 name = "FAQ"
-weight = 2
-[[menu.product]]
-URL = "platform"
-name = "Platform"
-weight = 3
+weight = 4
 [[menu.product]]
 URL = "pricing"
 name = "Pricing"
-weight = 4
+[[menu.product]]
+URL = "platform"
+name = "Platform"
+[[menu.product]]
+URL = "faq"
+name = "FAQ"
+[[menu.product]]
+URL = "privacy-policy"
+name = "Privacy Policy"
 [params]
 author = "Uxi Software"
 contact_form_action = "#"
-description = "This is meta description"
+description = "Cafetería con estílo, en Oaxaca. Ejido Guadalupe Victoria "
 footer = []
 logo = "images/logo.png"
 logo_width = "200px"
