@@ -10,38 +10,45 @@ title = "Mosso Café"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.company]]
-URL = "about-us"
-name = "About Us"
-[[menu.company]]
-URL = "quick-start"
-name = "Quick Start"
-[[menu.company]]
 URL = "terms-conditions"
-name = "Terms & Conditions"
-[[menu.main]]
-URL = "menu"
-name = "Nuestro Menú"
+name = " Términos y Condiciones"
+weight = 1
+[[menu.company]]
+URL = "about-us"
+name = "Nosotros"
 weight = 2
+[[menu.main]]
+URL = "faq"
+name = "Galeria"
+weight = 4
 [[menu.main]]
 URL = "contact"
 name = "Contacto"
 weight = 3
 [[menu.main]]
-URL = "Galeria"
-name = "FAQ"
-weight = 4
-[[menu.product]]
 URL = "pricing"
-name = "Pricing"
+name = "Menú"
+weight = 2
+[[menu.main]]
+URL = "blog"
+name = "Blog"
+weight = 1
 [[menu.product]]
-URL = "platform"
-name = "Platform"
+URL = "privacy-policy"
+name = "Aviso de Privacidad"
+weight = 1
 [[menu.product]]
 URL = "faq"
 name = "FAQ"
+weight = 2
 [[menu.product]]
-URL = "privacy-policy"
-name = "Privacy Policy"
+URL = "platform"
+name = "Platform"
+weight = 3
+[[menu.product]]
+URL = "pricing"
+name = "Pricing"
+weight = 4
 [params]
 author = "Uxi Software"
 contact_form_action = "#"
