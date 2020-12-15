@@ -28,8 +28,8 @@
               <div class="col col-md-4 mt-5">
                   <h3 class="text-uppercase">Social</h3>
                   <ul>
-                    {{ range site.Menus.branch }}
-                      <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
+                    {{ range site.Params.social }}
+                      <li><a href="{{ .URL | absURL }}">{{ .title }}</a></li>
                     {{ end }}
                   </ul>
               </div>            
