@@ -20,7 +20,7 @@ URL = "terms-conditions"
 name = "Términos y Condiciones"
 [[menu.main]]
 URL = "menu"
-name = "Nuestro Menú"
+name = "Nuestra Carta"
 weight = 2
 [[menu.main]]
 URL = "contact"
