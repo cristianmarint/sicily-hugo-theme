@@ -11,16 +11,20 @@ title = "Mosso Café"
 unsafe = true
 [[menu.company]]
 URL = "about-us"
-name = "About Us"
+name = "Nosotros"
 [[menu.company]]
-URL = "quick-start"
-name = "Quick Start"
+URL = "branches"
+name = "Sucursales"
 [[menu.company]]
 URL = "terms-conditions"
-name = "Terms & Conditions"
+name = "Términos y Condiciones"
+[[menu.main]]
+URL = "inicio"
+name = "Inicio"
+weight = "1"
 [[menu.main]]
 URL = "menu"
-name = "Nuestro Menú"
+name = "Nuestra Carta"
 weight = 2
 [[menu.main]]
 URL = "contact"
