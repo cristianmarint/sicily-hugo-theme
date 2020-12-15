@@ -19,7 +19,7 @@ name = "Sucursales"
 URL = "terms-conditions"
 name = "Términos y Condiciones"
 [[menu.main]]
-URL = "/"
+URL = "inicio"
 name = "Inicio"
 weight = "1"
 [[menu.main]]
