@@ -17,7 +17,7 @@ URL = "branches"
 name = "Sucursales"
 [[menu.company]]
 URL = "terms-conditions"
-name = "Terms & Conditions"
+name = "Términos y Condiciones"
 [[menu.main]]
 URL = "menu"
 name = "Nuestro Menú"
