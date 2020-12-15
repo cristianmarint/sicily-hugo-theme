@@ -11,7 +11,7 @@ title = "Mosso Café"
 unsafe = true
 [[menu.company]]
 URL = "about-us"
-name = "About Us"
+name = "Nosotros"
 [[menu.company]]
 URL = "quick-start"
 name = "Quick Start"
