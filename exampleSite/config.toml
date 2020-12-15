@@ -13,8 +13,8 @@ unsafe = true
 URL = "about-us"
 name = "Nosotros"
 [[menu.company]]
-URL = "quick-start"
-name = "Quick Start"
+URL = "branches"
+name = "Sucursales"
 [[menu.company]]
 URL = "terms-conditions"
 name = "Terms & Conditions"
