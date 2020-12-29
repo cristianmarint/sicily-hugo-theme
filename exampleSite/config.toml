@@ -85,7 +85,7 @@ icon = ""
 link = ""
 title = ""
 [[params.social]]
-icon = ""
+icon = "Instagram"
 link = "https://twitter.com"
 title = "twitter"
 [[params.social]]
