@@ -23,7 +23,7 @@ name = "Nosotros"
 weight = 3
 [[menu.main]]
 URL = "menu"
-name = "Nuestra Carta"
+name = "Nuestra carta"
 url = "/images/menu_mosso__3_.pdf"
 weight = 2
 [[menu.main]]
@@ -94,5 +94,5 @@ link = "https://twitter.com/cristianmarint"
 title = "Twitter"
 [[params.social]]
 icon = "instagram"
-link = "https://instagram.com/mossocafe/"
+link = "instagram.com/mossocafe/"
 title = "Instagram"
