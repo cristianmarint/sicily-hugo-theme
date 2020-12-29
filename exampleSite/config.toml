@@ -85,6 +85,6 @@ icon = "ti-twitter-alt"
 link = "https://twitter.com/cristianmarint"
 title = "twitter"
 [[params.social]]
-icon = "instagram"
-link = "\"https://instagram.com/mossocafe/\""
+icon = "Instagram"
+link = "https://instagram.com/mossocafe/"
 title = "Instagram"
