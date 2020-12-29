@@ -28,8 +28,9 @@
                     <h3 class="text-uppercase">Social</h3>
                     <ul>
 
-                        <li><a href="https://twitter.com/cristianmarint">twitter</a><i class="fab fa-instagram"></i></li>
-                        <li><a href="https://instagram.com/mossocafe/">Instagram</a><i class="fab fa-twitter"></i></li>
+                        {{ range site.Params.social }}
+                        <li><a href="{{ .URL | absURL }}">{{ .title }}</a></li>
+                        {{ end }}
 
                     </ul>
                 </div>
