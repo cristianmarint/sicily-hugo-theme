@@ -29,8 +29,6 @@ sections:
   label: menu
   create: all
   match: "**/*"
-  templates:
-  - post
 - type: directory
   path: exampleSite/content/about-us
   label: About us
