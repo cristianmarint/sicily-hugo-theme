@@ -81,7 +81,11 @@ icon = ""
 link = ""
 title = ""
 [[params.social]]
-icon = "ti-twitter-alt"
+icon = ""
+link = ""
+title = ""
+[[params.social]]
+icon = "/images/twitter.svg"
 link = "https://twitter.com/cristianmarint"
 title = "twitter"
 [[params.social]]
