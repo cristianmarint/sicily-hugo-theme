@@ -81,10 +81,6 @@ icon = ""
 link = ""
 title = ""
 [[params.social]]
-icon = ""
-link = ""
-title = ""
-[[params.social]]
 icon = "twitter"
 link = "https://twitter.com"
 title = "twitter"
