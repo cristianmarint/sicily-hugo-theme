@@ -4,13 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: ''
-  label: menu
-  create: none
-  match: "**/*"
-  templates:
-  - post
 - type: heading
   label: Inicio
 - type: document
