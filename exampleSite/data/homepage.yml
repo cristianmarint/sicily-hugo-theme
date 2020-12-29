@@ -6,7 +6,7 @@ banner:
   button:
     enable: true
     label: Nuestra carta
-    link: "/pricing/"
+    link: "/images/menu_mosso__3_.pdf"
 description:
   content: "\""
 service:
