@@ -10,45 +10,38 @@ title = "Mosso Café"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.company]]
-URL = "terms-conditions"
-name = "Términos y Condiciones"
-weight = 2
+URL = "about-us"
+name = "Nosotros"
 [[menu.company]]
 URL = "branches"
 name = "Sucursales"
-weight = 3
 [[menu.company]]
-URL = "about-us"
-name = "Nosotros"
-weight = 1
+URL = "terms-conditions"
+name = "Términos y Condiciones"
+[[menu.main]]
+URL = "inicio"
+name = "Inicio"
+weight = "1"
 [[menu.main]]
 URL = "menu"
 name = "Nuestra carta"
 weight = 2
 [[menu.main]]
-URL = "inicio"
-name = "Inicio"
-weight = 1
-[[menu.main]]
 URL = "contact"
 name = "Contacto"
 weight = 3
 [[menu.product]]
-URL = "privacy-policy"
-name = "Privacy Policy"
-weight = 1
-[[menu.product]]
-URL = "faq"
-name = "FAQ"
-weight = 2
+URL = "pricing"
+name = "Pricing"
 [[menu.product]]
 URL = "platform"
 name = "Platform"
-weight = 3
 [[menu.product]]
-URL = "pricing"
-name = "Pricing"
-weight = 4
+URL = "faq"
+name = "FAQ"
+[[menu.product]]
+URL = "privacy-policy"
+name = "Privacy Policy"
 [params]
 author = "Uxi Software"
 contact_form_action = "#"
@@ -90,8 +83,8 @@ title = ""
 [[params.social]]
 icon = "ti-twitter-alt"
 link = "https://twitter.com/cristianmarint"
-title = "Twitter"
+title = "twitter"
 [[params.social]]
 icon = "instagram"
-link = "instagram.com/mossocafe/"
+link = "\"https://instagram.com/mossocafe/\""
 title = "Instagram"
