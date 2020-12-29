@@ -4,7 +4,7 @@ banner:
   image: images/img_20201128_175549.jpg
   copyright: Copyright @ Mosso Café
   button:
-    enable: false
+    enable: true
     label: Nuestra carta
     link: "/images/menu_mosso__3_.pdf"
 description:
