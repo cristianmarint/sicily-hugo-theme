@@ -25,14 +25,14 @@ sections:
 - type: heading
   label: Main pages
 - type: directory
-  path: exampleSite/content/menú
-  label: menu
-  create: all
-  match: "**/*"
-- type: directory
   path: exampleSite/content/about-us
   label: About us
   create: documents
+  match: "**/*"
+- type: directory
+  path: exampleSite/content/menú
+  label: menu
+  create: all
   match: "**/*"
 - type: directory
   path: exampleSite/content/contact
