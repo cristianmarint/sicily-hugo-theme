@@ -32,7 +32,7 @@ sections:
 - type: directory
   path: exampleSite/content/menú
   label: menu
-  create: documents
+  create: none
   match: "**/*"
 - type: directory
   path: exampleSite/content/contact
