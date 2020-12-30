@@ -20,5 +20,3 @@ fields:
 - type: list
   name: categories
   label: categories
-pages:
-- exampleSite/content/menú/este-es-nuestro-menu.md
