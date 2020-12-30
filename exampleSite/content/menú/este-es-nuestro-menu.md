@@ -9,4 +9,6 @@ title = "Este es nuestro menú"
 +++
     <object data="/images/menu_mosso__3_.pdf" type="application/pdf" width="100%"> 
     </object>
+<!-- +++
+    <embed src="/images/menu_mosso__3_.pdf" type="application/pdf"> -->
     
