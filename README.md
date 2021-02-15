@@ -141,7 +141,7 @@ If you have questions or need help, opening an issue is the way to go!
 
   
 
-- Copyright 2020 Designed by [cristianmarint](https://cristianmarint.com/) & Developed by [Gethugothemes](https://gethugothemes.com/)
+- Copyright 2020 Designed & Developed by [cristianmarint](https://cristianmarint.com/) & [Gethugothemes](https://gethugothemes.com/)
 
 - Licensed under [MIT](https://github.com/cristianmarint/sicily-hugo-theme/blob/master/LICENSE)
 
