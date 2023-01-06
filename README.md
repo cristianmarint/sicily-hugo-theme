@@ -1,4 +1,3 @@
-
 # Easy Setup (Hugo + Netlify + Forestry) 🚀
 
 Build your website with sicily theme by following this easy steps (No Coding Required)
