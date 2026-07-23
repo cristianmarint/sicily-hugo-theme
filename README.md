@@ -1,163 +1,123 @@
-# Easy Setup (Hugo + Netlify + Forestry) 🚀
+# Sicily
 
-Build your website with sicily theme by following this easy steps (No Coding Required)
+A minimal editorial Hugo theme in black and white. Landing page, blog, pricing, FAQ and contact — no JavaScript framework, no build step beyond Hugo itself.
 
-  
+[**Live demo**](https://sicily-hugo-theme.netlify.app/)
 
-<a  href="http://bit.ly/meghna-hugo-installation"  target="_blank"  title="meghna hugo installation"  rel="nofollow"><img  width="100%"  src="https://user-images.githubusercontent.com/37659754/70844354-4028be00-1e6a-11ea-8d84-02e9a25e7db8.png"></a>
+![Sicily screenshot](https://raw.githubusercontent.com/cristianmarint/sicily-hugo-theme/master/images/screenshot.png)
 
-  
-  
+## Requirements
 
-## Table of Contents
-
-  
-
--  [Demo](#demo)
-
--  [Quick Start](#quick-start)
-
--  [Installation](#installation)
-
--  [Reporting Issues](#reporting-issues)
-
--  [Technical Support or Questions](#technical-support-or-questions)
-
--  [Licensing](#licensing)
-
--  [Need some specific?](https://www.cristianmarint.com/contacto.html)
-
-  
-
-### What you need !!
-
-  
-
-1. Git account (Ex: Github, Gitlab etc ) . In our case we use github.
-
-2.  [Netlify](https://bit.ly/netlify-account) account to host files and add custom domain .
-
-3.  [Forestry](https://bit.ly/forestry-account) account to maintain whole project without code.
-
-  
-  
-
-### Step 1 : Fork or Clone repository
-
-  
-
-First we will fork this [sicily](https://github.com/cristianmarint/sicily-hugo-theme) template.
-
-  
-
-### Step 2 : Add your repository in Forestry
-
-  
-
-Go to your [forestry](https://bit.ly/forestry-account) account and click on `import your site now`. declare your config.toml file [`exampleSite`] and fill up basic settings .
-
-  
-
-**Or just click this button for one click installation**  [![import to forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=cristianmarint/sicily-hugo-theme&engine=hugo&version=0.60.1&config=exampleSite)
-
-  
-
-Now mark everything as done, then go to configuration to change the base url . You can put any url but this have to similar as netlify . So for now put a name which you are going to put in netlify as netlify subdomain.
-
-  
-
-### Step 3 : Setup and host website with Netlify
-
-  
-
-Here comes the last step . Go to your [netlify](https://bit.ly/netlify-account) account and click add new site . Choose your git repository to import your website in netlify . And now you can see the forked `sicily` theme. select it and follow the steps. Then go to `site settings` for change the site name and put your subdomain name here what you puted on forestry as base url. save it and go to `deploy` from top menu, Wait a while and click on `site preview` or just simply go to the subdomain you puted as base url. **BOOM! Your site is live.** Now you can go to forestry and add, remove or customize every setting and content.
-
-  
-
-> If you face any issue regarding the installation feel free to onen [open a new issue](https://github.com/cristianmarint/sicily-hugo-theme/issues)
-
-  
-  
-
-## Demo
-
-  
-
-[Live Preview](https://sicily-hugo-theme.netlify.app/).
-
-  
-
-## Quick Start
-
-Quick start options:
-
-  
-
-- Clone the repo: `git clone https://github.com/cristianmarint/sicily-hugo-theme.git`.
-
--  [Download from Github](https://github.com/cristianmarint/sicily-hugo-theme/archive/master.zip).
-
-  
-
-## Installation
-
-At the top we have shown an easy hugo installation. but still if you think you want to go with the traditional way then use the following commands:
-
-  
+Hugo **extended** v0.128.0 or newer — the theme compiles SCSS with `css.Sass`, which the standard build does not include.
 
 ```
+hugo version   # must contain "+extended"
+```
 
-git clone git@github.com:cristianmarint/sicily-hugo-theme.git
+## Run the demo site
 
-cd sicily-hugo-theme/exampleSite/
-
+```
+git clone https://github.com/cristianmarint/sicily-hugo-theme.git
+cd sicily-hugo-theme/exampleSite
 hugo server --themesDir ../..
-
 ```
 
-  
-  
+Open http://localhost:1313.
 
-## Reporting Issues
+## Use it in your own site
 
-  
+```
+cd your-site
+git submodule add https://github.com/cristianmarint/sicily-hugo-theme.git themes/sicily
+```
 
-We use GitHub Issues as the official bug tracker for the **sicily**. Please Search [existing issues](https://github.com/cristianmarint/sicily-hugo-theme/issues). It’s possible someone has already reported the same problem.
+Then set `theme = "sicily"` in your config and copy `exampleSite/config.toml`, `exampleSite/content/` and `exampleSite/data/` as your starting point.
 
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/cristianmarint/sicily-hugo-theme/issues/new)
+## Configuration
 
-  
+Everything lives in `config.toml`. The parameters the theme actually reads:
 
-## Technical Support or Questions 
+| Key | What it does |
+| --- | --- |
+| `title` | Site name — also rendered as the black brand block in the header and footer |
+| `summaryLength` | Words shown in blog post summaries |
+| `[pagination] pagerSize` | Posts per page on the blog list |
+| `[services.disqus] shortname` | Enables comments on posts; remove the block to disable |
+| `params.logo` | Favicon path, relative to `static/` |
+| `params.author`, `params.description` | Default meta tags |
+| `params.contact_form_action` | POST target of the contact form (Netlify Forms, Formspree, etc.) |
+| `params.navigation_button` | `enable`, `label` and `link` for the header call-to-action |
+| `params.preloader` | `enable` and image path for the loading screen |
+| `params.company` | Address block in the footer |
+| `[[params.footer]]` | Repeatable — one contact card per person (`rol_name`, `rol_representative`, `rol_email`) |
+| `[[params.social]]` | Repeatable — social links on the homepage (`title`, `link`, `icon`) |
+| `[[params.plugins.css]]`, `[[params.plugins.js]]` | Vendored assets loaded on every page |
 
-  
+Menus are standard Hugo menus. Three are used: `main` (header), `company` and `product` (footer columns).
 
-If you have questions or need help, opening an issue is the way to go!
+## Content
 
-  
+Each top-level section maps to a layout:
 
-## Licensing
+| Path | Renders as |
+| --- | --- |
+| `content/blog/` | Post list with pagination, plus single post pages |
+| `content/pricing/_index.md` | Three-column pricing table, driven by the `intro`, `enterprise` and `base` front matter keys |
+| `content/faq/_index.md` | Two-column FAQ grid, built with the `faq` shortcode |
+| `content/contact/_index.md` | Contact form |
+| Any other `_index.md` | Plain page — title, optional `subtitle`, and the markdown body |
 
-  
+Blog posts accept `image`, `description` and `type`. Setting `type: "featured"` promotes a post to the wide layout at the top of the list; anything else renders as a regular card.
 
-- Copyright 2020 Designed & Developed by [cristianmarint](https://cristianmarint.com/) & [Gethugothemes](https://gethugothemes.com/)
+FAQ entries use a shortcode:
 
-- Licensed under [MIT](https://github.com/cristianmarint/sicily-hugo-theme/blob/master/LICENSE)
+```
+{{< faq "Question goes here?" >}}
+Answer in **markdown**.
+{{</ faq >}}
+```
 
-  
+The homepage banner and the 404 illustration come from `data/homepage.yml` (`banner`, `description` and `error404` keys).
 
-### Donate Us (Author)
+## Customizing the design
 
-This project needs you! If you would like to support this project's further development, the creator of this project or the continuous maintenance of this project, feel free to donate. Your donation is highly appreciated . Thank you!
+The theme is built on a small set of SCSS variables in `assets/scss/_variables.scss`:
 
-  
+```scss
+$primary-color: #000000;   // accent: links, hovers, active states
+$text-color:    #000000;
+$body-color:    #FFFFFF;
+$light:         #F4F4F4;   // pagination and muted backgrounds
+$primary-font:  'Lato', sans-serif;
+```
 
-*  **[Donate $10](https://www.paypal.me/cristianmarint/10USD)**: Thank's for creating this project, here's a tea (or some juice) for you!
+Changing `$primary-color` re-colors the whole theme — buttons, links, pagination, blockquotes and list bullets all derive from it. Partials are split by concern under `assets/scss/`: `_typography.scss`, `_buttons.scss`, `_common.scss` and `templates/`.
 
-*  **[Donate $100](https://www.paypal.me/cristianmarint/100USD)**: You are the man! This project saved me hours (if not days) of struggle and hard work, simply awesome!
+Overriding from your own site works the usual Hugo way: drop a file with the same path in your project root and it wins over the theme's.
 
-*  **[Donate $1500](https://www.paypal.me/cristianmarint/1500USD)**: Go buddy, buy Macbook Pro for yourself!
+## Deploy
 
-  
+`netlify.toml` is ready to use — it builds `exampleSite` and publishes `exampleSite/public`. For your own site, point the build at your project root instead:
 
-Of course, you can also choose what you want to donate, all donations are awesome !
+```toml
+[build]
+  publish = "public"
+  command = "hugo --gc --minify"
+
+[build.environment]
+  HUGO_VERSION = "0.164.0"
+```
+
+Netlify needs the extended binary; the version above includes it.
+
+## Issues and questions
+
+Search [existing issues](https://github.com/cristianmarint/sicily-hugo-theme/issues) first, then [open a new one](https://github.com/cristianmarint/sicily-hugo-theme/issues/new). Pull requests welcome.
+
+## License
+
+[MIT](https://github.com/cristianmarint/sicily-hugo-theme/blob/master/LICENSE) — free for personal and commercial use.
+
+Built by [cristianmarint](https://www.flexyflow.co/), originally derived from [Bigspring](https://github.com/themefisher/bigspring-hugo-startup-theme) by Themefisher.
+
+If the theme saved you time, you can [buy me a coffee](https://www.paypal.me/cristianmarint/10USD).

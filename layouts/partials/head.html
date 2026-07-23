@@ -19,8 +19,9 @@
   <link href="{{ $style.Permalink }}" rel="stylesheet" media="screen"/>
 
   {{ "<!--Favicon-->" | safeHTML }}
-  <link rel="shortcut icon" href="{{ `images/logo.png` | absURL }}" type="image/x-icon">
-  <link rel="icon" href="{{ `images/logo.png` | absURL }}" type="image/x-icon">
+  {{ $favicon := site.Params.logo | default "images/logo.png" }}
+  <link rel="shortcut icon" href="{{ $favicon | absURL }}" type="image/x-icon">
+  <link rel="icon" href="{{ $favicon | absURL }}" type="image/x-icon">
 
   
   {{ with .Params.Image }}
