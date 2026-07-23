@@ -8,10 +8,10 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="col pt-5 pb-5">
-                        <h1 class="pt-5" style="font-weight: bold;">{{.title}}</h1>
+                        <h1 class="pt-5">{{.title}}</h1>
                         {{ if .button.enable }}
                           {{ with .button }}
-                            <a href="{{.link}}" class="btn btn-outline-primary btn-lg" type="button" style="font-weight: bold;">{{.label}}</a>
+                            <a href="{{.link}}" class="btn btn-outline-primary btn-lg" type="button">{{.label}}</a>
                           {{end}}
                         {{end}}
                       </div>

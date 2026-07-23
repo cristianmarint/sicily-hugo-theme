@@ -1,8 +1,8 @@
-{{ define "main" }}   
+{{ define "main" }}
 
 {{ partial "page-header.html" . }}
 
-  <div class="mt-5 mb-5 vh-30" style="background: #bfffff;">
+  <div class="mt-5 mb-5 vh-30">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -11,25 +11,25 @@
         <div class="col-md-6">
           <form class="mt-5 pt-5 mb-5 pb-5" action="{{ site.Params.contact_form_action | safeURL }}" method="POST">
               <div class="form-group">
-                <label style="font-weight: bold;">Name</label>
-                <input class="border rounded-0 form-control contact-input" type="text" name="name">
+                <label class="font-weight-bold">Name</label>
+                <input class="form-control contact-input" type="text" name="name">
               </div>
               <div class="form-group">
-                <label style="font-weight: bold;">Email</label>
+                <label class="font-weight-bold">Email</label>
                 <input class="form-control contact-input" type="email" name="email" required="">
               </div>
               <div class="form-group">
-                  <label style="font-weight: bold;">Subject</label>
-                  <input class="border rounded-0 form-control contact-input" type="text" name="subject" required="">
+                  <label class="font-weight-bold">Subject</label>
+                  <input class="form-control contact-input" type="text" name="subject" required="">
               </div>
               <div class="form-group">
-                    <label style="font-weight: bold;">Message</label>
-                    <textarea class="form-control contact-input"></textarea>
+                    <label class="font-weight-bold">Message</label>
+                    <textarea class="form-control contact-input" name="message"></textarea>
               </div>
-              <button class="btn contact-button" type="submit">Send</button></form>
-            </form>
-          </div>
+              <button class="btn btn-primary" type="submit">Send</button>
+          </form>
         </div>
       </div>
+    </div>
   </div>
 {{ end }}

@@ -15,7 +15,7 @@
   {{ end }}
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}
-  {{ $style := resources.Get "scss/style.scss" | toCSS | minify }}
+  {{ $style := resources.Get "scss/style.scss" | css.Sass | minify }}
   <link href="{{ $style.Permalink }}" rel="stylesheet" media="screen"/>
 
   {{ "<!--Favicon-->" | safeHTML }}
@@ -28,6 +28,5 @@
   {{ end }}
   {{ template "_internal/opengraph.html" . }}
   {{ template "_internal/google_analytics.html" . }}
-  {{ template "_internal/google_analytics_async.html" . }}
   
 </head>

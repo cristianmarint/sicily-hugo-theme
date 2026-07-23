@@ -13,14 +13,4 @@
     $(this).parent().find('.ti-angle-down').removeClass('ti-angle-down').addClass('ti-angle-right');
   });
 
-  
-	//slider
-	$('.slider').slick({
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		autoplay: true,
-		dots: true,
-		arrows: false
-	});
-
 })(jQuery);

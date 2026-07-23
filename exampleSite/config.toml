@@ -1,12 +1,13 @@
 baseURL = "https://example.com/"
-disqusShortname = "sicily-hugo-theme"
-googleAnalytics = ""
 languageCode = "en-us"
 languageName = "En"
-paginate = "10"
 summaryLength = "15"
 theme = "Sicily-hugo-theme"
 title = "Sicily"
+[pagination]
+pagerSize = 10
+[services.disqus]
+shortname = "sicily-hugo-theme"
 [markup.goldmark.renderer]
 unsafe = true
 [[menu.company]]
@@ -56,7 +57,7 @@ logo_width = "200px"
 address = "7657 Cl. 6, Centro"
 city = "Cartago, Valle Del Cauca"
 country = "Colombia"
-email = "contact@sicily.com"
+email = "contact@flexyflow.co"
 phone = "+57 315 270 2727"
 [params.navigation_button]
 enable = true
@@ -67,28 +68,24 @@ link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
 link = "plugins/themify-icons/themify-icons.css"
 [[params.plugins.css]]
-link = "plugins/slick/slick.css"
-[[params.plugins.css]]
 link = "plugins/custom/clean-footer.css"
 [[params.plugins.js]]
 link = "plugins/jQuery/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-link = "plugins/slick/slick.min.js"
 [params.preloader]
 enable = false
 preloader = ""
 [[params.footer]]
-rol_email = "pedropiedras@sicily.com"
+rol_email = "pedropiedras@flexyflow.co"
 rol_name = "Creative Director"
 rol_representative = "Pedro Pidras"
 [[params.footer]]
-rol_email = "juanrisas@sicily.com"
+rol_email = "juanrisas@flexyflow.co"
 rol_name = "Chief executive officer"
 rol_representative = "Juan Risas"
 [[params.footer]]
-rol_email = "mateojosedulfo@Sicily.com"
+rol_email = "mateojosedulfo@flexyflow.co"
 rol_name = "Bussines Director"
 rol_representative = "Mateo Josedulfo"
 [[params.social]]

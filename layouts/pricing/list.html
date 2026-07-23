@@ -1,4 +1,4 @@
-{{ define "main" }}
+﻿{{ define "main" }}
 
 {{ partial "page-header.html" . }}
 <section class="section">
@@ -11,13 +11,13 @@
           <div class="card-body ml-3 py-5">
           <div class="mb-3">
             <h3>{{ .name | markdownify }}</h3>
-            <p class="lead" style="color: gray;">{{ .info | markdownify }}</p>
+            <p class="lead text-muted">{{ .info | markdownify }}</p>
           </div>
             
           <div class="mb-5">
-            <span class="price" style="color: black;font-weight: bold;">{{ .price }}</span>
+            <span class="price">{{ .price }}</span>
             <br>
-            <span style="color: gray;">{{ .price_per }}</span>
+            <span class="text-muted">{{ .price_per }}</span>
           </div>
             
             <ul class="list-unstyled mb-5">
@@ -80,13 +80,13 @@
           <div class="card-body ml-3 py-5">
           <div class="mb-3">
             <h3>{{ .name | markdownify }}</h3>
-            <p class="lead" style="color: gray;">{{ .info | markdownify }}</p>
+            <p class="lead text-muted">{{ .info | markdownify }}</p>
           </div>
             
           <div class="mb-5">
-            <span class="price" style="color: black;font-weight: bold;">{{ .price }}</span>
+            <span class="price">{{ .price }}</span>
             <br>
-            <span style="color: gray;">{{ .price_per }}</span>
+            <span class="text-muted">{{ .price_per }}</span>
           </div>
             
             <ul class="list-unstyled mb-5">

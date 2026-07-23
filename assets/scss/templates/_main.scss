@@ -1,51 +1,9 @@
-// banner
-.banner {
-  padding: 100px 0 50px;
-}
-
-.feature-card {
-  border-radius: 10px;
-  padding: 20px;
-  transition: .2s ease;
-  background-color: $white;
-
-  &:hover {
-    @extend .shadow;
-  }
-
-  i {
-    font-size: 30px;
-    color: $primary-color;
-    display: inline-block;
-  }
-}
-
-.footer-list a {
-  display: block;
-  padding: 5px 0;
-  font-size: 16px;
-  color: $text-color;
-  margin: 8px 0;
-
-  &:hover {
-    color: $primary-color;
-  }
-}
-
-.social-icons a {
-  color: $primary-color;
-  text-align: center;
-  height: 35px;
-  width: 35px;
-  line-height: 35px;
-  border: 1px solid $primary-color;
-  border-radius: 50%;
-  display: block;
-
-  &:hover {
-    color: $white;
-    background-color: $primary-color;
-  }
+// branding
+.brand-block {
+  // ponytail: !important beats .navbar-light .navbar-brand(:hover) without specificity gymnastics
+  color: $white !important;
+  background-color: $black;
+  font-weight: 700;
 }
 
 // blog post
@@ -80,7 +38,7 @@ a.post-title {
   }
 
   strong {
-    font-weight: 600;
+    font-weight: 700;
   }
 
   a {
@@ -162,87 +120,11 @@ a.post-title {
     margin-bottom: 0;
   }
 
-  .notices {
-    margin: 2rem 0;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .notices p {
-    padding: 10px;
-    margin-bottom: 0;
-  }
-
-  .notices p::before {
-    position: absolute;
-    top: 2px;
-    color: $white;
-    font-family: "themify";
-    font-weight: 900;
-    content: "\e717";
-    left: 10px;
-  }
-
-  .notices.note p {
-    border-top: 30px solid #6ab0de;
-    background: $white;
-  }
-
-  .notices.note p::after {
-    content: 'Note';
-    position: absolute;
-    top: 2px;
-    color: $white;
-    left: 2rem;
-  }
-
-
-  .notices.tip p {
-    border-top: 30px solid #78C578;
-    background: $white;
-  }
-
-  .notices.tip p::after {
-    content: 'Tip';
-    position: absolute;
-    top: 2px;
-    color: $white;
-    left: 2rem;
-  }
-
-  .notices.info p {
-    border-top: 30px solid #F0B37E;
-    background: $white;
-  }
-
-  .notices.info p::after {
-    content: 'Info';
-    position: absolute;
-    top: 2px;
-    color: $white;
-    left: 2rem;
-  }
-
-
-  .notices.warning p {
-    border-top: 30px solid #E06F6C;
-    background: $white;
-  }
-
-  .notices.warning p::after {
-    content: 'Warning';
-    position: absolute;
-    top: 2px;
-    color: #fff;
-    left: 2rem;
-  }
-
-
   blockquote {
     font-size: 20px !important;
     color: $text-color;
     padding: 20px 40px;
-    border-left: 2px solid $primary-color;
+    border-left: 2px solid $black;
     margin: 40px 0;
     font-weight: bold;
     background: $white;
@@ -277,7 +159,7 @@ a.post-title {
       width: 40px;
       height: 40px;
       line-height: 40px;
-      border-radius: 5px;
+      border-radius: 0;
       background: $light;
       text-align: center;
       padding: 0;
@@ -286,7 +168,7 @@ a.post-title {
       color: $text-color;
 
       &:hover {
-        background: $primary-color;
+        background: $black;
         color: $white;
       }
 
@@ -295,46 +177,11 @@ a.post-title {
       }
     }
 
-    &:first-child,
-    &:last-child {
-      .page-link {
-        border-radius: 5px;
-      }
-    }
-
     &.active {
       .page-link {
-        background: $primary-color;
+        background: $black;
         color: $white;
       }
-    }
-  }
-}
-
-.slick-dots {
-  text-align: center;
-  margin-top: 20px;
-
-  li {
-    display: inline-block;
-    margin: 0 5px;
-
-    &.slick-active {
-      button {
-        background-color: $primary-color;
-      }
-    }
-
-    button {
-      height: 10px;
-      width: 10px;
-      border-radius: 50%;
-      display: block;
-      color: transparent;
-      padding: 0;
-      border: 1px solid $primary-color;
-      background-color: transparent;
-      transition: .2s ease;
     }
   }
 }
@@ -351,23 +198,23 @@ a.post-title {
 
 .price{
   font-size: 50px;
-  color: $white;
+  font-weight: 700;
 }
 
 .enterprise{
-  background-color: #007BFF;
-  color:white !important;
+  background-color: $black;
+  color: $white !important;
 }
 
 .white{
-  color:$white !important;
+  color: $white !important;
 }
 
 .opposite{
-  color: $primary-color;
+  color: $black;
   background-color: $white;
 }
 .opposite:hover{
-  color: $primary-color;
+  color: $black;
   background-color: $white !important;
 }

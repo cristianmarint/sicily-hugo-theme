@@ -9,3 +9,5 @@ builds
 package-lock.json
 public
 docs
+**/resources/_gen/
+.hugo_build.lock

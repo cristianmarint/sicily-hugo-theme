@@ -4,7 +4,7 @@ body {
 }
 
 ::selection {
-  background-color:darken($color: $primary-color, $amount: 10);
+  background-color: $black;
   color: $white;
 }
 
@@ -17,12 +17,8 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: $primary-color;
+  background-color: $black;
   outline: 2px solid #fff;
-}
-
-.active{
-  color: $primary-color !important;
 }
 
 
@@ -57,6 +53,10 @@ a:focus {
   text-decoration: none;
 }
 
+a:not(.btn):hover {
+  text-decoration: underline;
+}
+
 a,
 button,
 select {
@@ -72,60 +72,13 @@ a:hover {
   color: $primary-color;
 }
 
-.slick-slide {
-  outline: 0;
-}
-
 .section {
   padding-top: 70px;
   padding-bottom: 70px;
-
-  &-title {
-    margin-bottom: 30px;
-  }
 }
 
-.bg-cover {
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-
-.border-default {
-  border-color: $border-color !important;
-}
-
-/* overlay */
-
-.overlay {
-  position: relative;
-
-  &::before {
-    position: absolute;
-    content: '';
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    background-color: $black;
-    opacity: .5;
-  }
-}
-
-.bg-primary {
-  background-color: $primary-color !important;
-}
-
-.bg-light {
-  background-color: $light !important;
-}
-
-.text-primary {
-  color: $primary-color !important;
-}
-
-.rounded-lg{
-  border-radius: 10px !important;
+.card {
+  border-radius: 0;
 }
 
 .shadow{
@@ -167,7 +120,7 @@ textarea.form-control {
     height: 25px;
     width: 25px;
     line-height: 25px;
-    background-color: $primary-color;
+    background-color: $black;
     border-radius: 50%;
     font-size: 15px;
     text-align: center;
